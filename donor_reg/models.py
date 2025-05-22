@@ -5,6 +5,7 @@ class Form(models.Model):
     last_name = models.CharField(max_length=80)
     blood_group = models.CharField(max_length=80)
     phone = models.CharField(max_length=80)
+    email = models.EmailField()
     last_donation = models.DateField()
     location = models.CharField(max_length=100)
 
